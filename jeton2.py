@@ -1,9 +1,11 @@
+import os
 import streamlit as st
 import pandas as pd
 from pulp import LpMaximize, LpProblem, LpVariable
 
 # streamlit run d:/Python/.venv2/Scripts/jeton2.py
 
+#my_db.connect(username=st.secrets.db_credentials.username, password=st.secrets.db_credentials.password)
 
 st.set_page_config(page_title="Heartopia Optimizer", layout="centered")
 
